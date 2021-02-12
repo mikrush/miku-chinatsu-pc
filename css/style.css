@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
 
+@font-face {
+  font-family: miku;
+  src: url(../assets/fonts/Bring_Heart.ttf);
+}
+
 *,
 ::after,
 ::before {
@@ -20,7 +25,8 @@ body {
 
 h1 {
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 6rem;
+  font-family: miku;
   line-height: 1.2;
   letter-spacing: -0.1rem;
   -webkit-align-self: center;
@@ -29,7 +35,7 @@ h1 {
   padding: 0.2rem;
   max-width: 960px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-top: 8px;
   margin-bottom: 0;
   color: #ffffff;
