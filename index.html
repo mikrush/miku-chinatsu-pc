@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -16,116 +15,178 @@
     <h1 class="heading"> Miku Chinatsu</h1>
     <h2 class="heading"> COMPONENTES PC</h2>
 
-    <div class="general-container">
-      <input class="radio" type="radio" name="card" id="card-1" checked />
-      <label class="content" for="card-1">
-        <span class="icon">
-          <i class="fas fa-gamepad"></i>
-        </span>
-        <h3 class="card-title">
-          Asus ROG Strix GeForce RTX 3070 OC 8GB GDDR6
-          <span class="subtitle">Tarjeta Gráfica</span>
-        </h3>
-      </label>
+    <div class="grid">
+      <ul id="hexGrid">
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.wipoid.com/asus-rog-strix-geforce-rtx-3070-oc-8gb-gddr6.html">
+              <div
+                class="img"
+                style="
+                  background-image: url('assets/img/gpu.jpg');
+                "
+              ></div>
+              <h1 id="title">Tarjeta gráfica</h1>
+              <p id="subtitle">
+                Asus ROG Strix GeForce RTX 3070
+              </p>
+            </a>
+          </div>
+        </li>
 
-      <input class="radio" type="radio" name="card" id="card-2" />
-      <label class="content" for="card-2">
-        <span class="icon">
-          <i class="fas fa-microchip"></i>
-        </span>
-        <h3 class="card-title">
-          AMD Ryzen 7 5800X 3,8Ghz
-          <span class="subtitle">Microprocesador</span>
-        </h3>
-      </label>
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.amazon.es/AMD-Ryzen-7-5800X-Box/dp/B0815XFSGK/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=mikuchinatsu-21&linkId=e92be4b3c12092d99eadfad2216678e6&language=es_ES">
+              <div
+                class="img"
+                style="
+                  background-image: url(assets/img/cpu.jpg);
+                "
+              ></div>
+              <h1 id="title">CPU</h1>
+              <p id="subtitle">
+                AMD Ryzen 7 5800X 3,8Ghz
+              </p>
+            </a>
+          </div>
+        </li>
 
-      <input class="radio" type="radio" name="card" id="card-3" />
-      <label class="content" for="card-3">
-        <span class="icon">
-          <i class="fas fa-box"></i>
-        </span>
-        <h3 class="card-title">
-          Lian Li PC-O11 Dynamic
-          <span class="subtitle">Caja</span>
-        </h3>
-      </label>
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.amazon.es/Lian-pc-o11dx-Cubierta-para-Negro/dp/B07C88X1VV/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=mikuchinatsu-21&linkId=e92be4b3c12092d99eadfad2216678e6&language=es_ES">
+              <div
+                class="img"
+                style="
+                  background-image: url(assets/img/case.jpg);
+                "
+              ></div>
+              <h1 id="title">Caja</h1>
+              <p id="subtitle">
+                Lian Li PC-O11 Dynamic
+              </p>
+            </a>
+          </div>
+        </li>
 
-      <input class="radio" type="radio" name="card" id="card-4" />
-      <label class="content" for="card-4">
-        <span class="icon">
-          <i class="fas fa-temperature-low"></i>
-        </span>
-        <h3 class="card-title">
-          Corsair iCUE H150i Elite Capellix RGB
-          <span class="subtitle">Disipador microprocesador</span>
-        </h3>
-      </label>
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.amazon.es/Corsair-CAPELLIX-Refrigerador-Ventiladores-Commander/dp/B08G1Q3GZR/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=mikuchinatsu-21&linkId=e92be4b3c12092d99eadfad2216678e6&language=es_ES">
+              <div
+                class="img"
+                style="
+                  background-image: url(assets/img/capellix.jpg);
+                "
+              ></div>
+              <h1 id="title">Disipador CPU</h1>
+              <p id="subtitle">
+                Corsair iCUE H150i Elite Capellix RGB
+              </p>
+            </a>
+          </div>
+        </li>
 
-      <input class="radio" type="radio" name="card" id="card-5" />
-      <label class="content" for="card-5">
-        <span class="icon">
-          <i class="fas fa-tasks"></i>
-        </span>
-        <h3 class="card-title">
-          Corsair Commander Pro
-          <span class="subtitle">Addon</span>
-        </h3>
-      </label>
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.amazon.es/Corsair-Commander-Pro-Controlador-iluminación/dp/B0725HP1J2/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=mikuchinatsu-21&linkId=e92be4b3c12092d99eadfad2216678e6&language=es_ES">
+              <div
+                class="img"
+                style="
+                  background-image: url(assets/img/commander.jpg);
+                "
+              ></div>
+              <h1 id="title">Addon</h1>
+              <p id="subtitle">
+                Corsair Commander Pro
+              </p>
+            </a>
+          </div>
+        </li>
 
-      <input class="radio" type="radio" name="card" id="card-6" />
-      <label class="content" for="card-6">
-        <span class="icon">
-          <i class="fas fa-lightbulb"></i>
-        </span>
-        <h3 class="card-title">
-          Lighting Node Pro
-          <span class="subtitle">Addon</span>
-        </h3>
-      </label>
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.amazon.es/Corsair-Lighting-Node-Pro-Individualmente/dp/B01MYDTC2C/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=mikuchinatsu-21&linkId=e92be4b3c12092d99eadfad2216678e6&language=es_ES&th=1">
+              <div
+                class="img"
+                style="
+                  background-image: url(assets/img/node.jpg);
+                "
+              ></div>
+              <h1 id="title">Addon</h1>
+              <p id="subtitle">
+                Lighting Node Pro
+              </p>
+            </a>
+          </div>
+        </li>
 
-      <input class="radio" type="radio" name="card" id="card-7" />
-      <label class="content" for="card-7">
-        <span class="icon">
-          <i class="fas fa-fan"></i>
-        </span>
-        <h3 class="card-title">
-          Corsair LL120 RGB 120mm x6
-          <span class="subtitle">Ventiladores RGB</span>
-        </h3>
-      </label>
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.amazon.es/Corsair-Ventilador-Paquete-Tripla-Lighting/dp/B075VGN4M1/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=mikuchinatsu-21&linkId=e92be4b3c12092d99eadfad2216678e6&language=es_ES">
+              <div
+                class="img"
+                style="
+                  background-image: url(assets/img/fans.jpg);
+                "
+              ></div>
+              <h1 id="title">Ventiladores</h1>
+              <p id="subtitle">
+                Corsair LL120 RGB 120mm x6
+              </p>
+            </a>
+          </div>
+        </li>
 
-      <input class="radio" type="radio" name="card" id="card-8" />
-      <label class="content" for="card-8">
-        <span class="icon">
-          <i class="fas fa-hdd"></i>
-        </span>
-        <h3 class="card-title">
-          Corsair Force Series MP600 1TB SSD M.2 PCIe Gen 4.0 x4
-          <span class="subtitle">Disco duro ssd m.2</span>
-        </h3>
-      </label>
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.amazon.es/Corsair-Force-MP600-Unidad-Velocidad/dp/B07SQZYW2V/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=mikuchinatsu-21&linkId=e92be4b3c12092d99eadfad2216678e6&language=es_ES">
+              <div
+                class="img"
+                style="
+                  background-image: url(assets/img/ssd.jpg);
+                "
+              ></div>
+              <h1 id="title">Disco duro</h1>
+              <p id="subtitle">
+                Corsair Force Series MP600 1TB SSD M.2 PCIe Gen 4.0 x4
+              </p>
+            </a>
+          </div>
+        </li>
 
-      <input class="radio" type="radio" name="card" id="card-9" />
-      <label class="content" for="card-9">
-        <span class="icon">
-          <i class="fas fa-bolt"></i>
-        </span>
-        <h3 class="card-title">
-          Corsair RM750 750W Modular Gold
-          <span class="subtitle">Fuente de alimentación</span>
-        </h3>
-      </label>
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.amazon.es/Corsair-RM750-Alimentación-Totalmente-CP-9020195-EU/dp/B07S4TKB4S/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=mikuchinatsu-21&linkId=e92be4b3c12092d99eadfad2216678e6&language=es_ES">
+              <div
+                class="img"
+                style="
+                  background-image: url(assets/img/psu.jpg);
+                "
+              ></div>
+              <h1 id="title">PSU</h1>
+              <p id="subtitle">
+                Corsair RM750 750W Modular Gold
+              </p>
+            </a>
+          </div>
+        </li>
 
-      <input class="radio" type="radio" name="card" id="card-10" />
-      <label class="content" for="card-10">
-        <span class="icon">
-          <i class="fas fa-memory"></i>
-        </span>
-        <h3 class="card-title">
-          G.Skill Trident Z Neo RGB DDR4 3600 32GB 2x16 CL18
-          <span class="subtitle">Memoria RAM</span>
-        </h3>
-      </label>
+        <li class="hex">
+          <div class="hexIn">
+            <a class="hexLink" href="https://www.amazon.es/G-Skill-Trident-32GB-3600MHz-m%C3%B3dulo/dp/B01NCV4CYA/ref=as_li_ss_tl?ie=UTF8&linkCode=sl2&tag=mikuchinatsu-21&linkId=e92be4b3c12092d99eadfad2216678e6&language=es_ES">
+              <div
+                class="img"
+                style="
+                  background-image: url(assets/img/ram.jpg);
+                "
+              ></div>
+              <h1 id="title">Memoria RAM</h1>
+              <p id="subtitle">
+                G.Skill Trident Z Neo RGB DDR4 3600 32GB 2x16 CL18
+              </p>
+            </a>
+          </div>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
